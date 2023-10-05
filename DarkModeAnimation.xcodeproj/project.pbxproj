@@ -11,6 +11,8 @@
 		642019682ACDF6D400377698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642019672ACDF6D400377698 /* ContentView.swift */; };
 		6420196A2ACDF6D400377698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642019692ACDF6D400377698 /* Assets.xcassets */; };
 		6420196D2ACDF6D400377698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6420196C2ACDF6D400377698 /* Preview Assets.xcassets */; };
+		642019742ACDF73700377698 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642019732ACDF73700377698 /* ViewExtensions.swift */; };
+		642019762ACDFB6E00377698 /* RectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642019752ACDFB6E00377698 /* RectKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		642019672ACDF6D400377698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		642019692ACDF6D400377698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6420196C2ACDF6D400377698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		642019732ACDF73700377698 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		642019752ACDFB6E00377698 /* RectKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				642019652ACDF6D400377698 /* DarkModeAnimationApp.swift */,
 				642019672ACDF6D400377698 /* ContentView.swift */,
+				642019752ACDFB6E00377698 /* RectKey.swift */,
+				642019732ACDF73700377698 /* ViewExtensions.swift */,
 				642019692ACDF6D400377698 /* Assets.xcassets */,
 				6420196B2ACDF6D400377698 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				642019682ACDF6D400377698 /* ContentView.swift in Sources */,
+				642019742ACDF73700377698 /* ViewExtensions.swift in Sources */,
 				642019662ACDF6D400377698 /* DarkModeAnimationApp.swift in Sources */,
+				642019762ACDFB6E00377698 /* RectKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
